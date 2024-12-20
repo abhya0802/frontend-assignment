@@ -59,13 +59,13 @@ const App = () => {
   }, []);
   return (
     <>
-      <table className="tableContainer">
+      <table className="tableContainer" data-testid="table">
         <thead>
           <tr>
-            <th>SNO</th>
-            <th>Percentage funded</th>
+            <th>** SNO **</th>
+            <th>** Percentage funded **</th>
 
-            <th>Amount pledged</th>
+            <th>** Amount pledged **</th>
           </tr>
         </thead>
         <tbody>
