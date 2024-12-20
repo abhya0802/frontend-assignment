@@ -31,19 +31,17 @@
   padding: 16px 8px 16px 8px;
   display: flex;
   justify-content: center;
+  gap: 4px;
 }
 
 .paginationButton {
-  width: 40px;
-  height: 40px;
-  background: #ccc;
-  border: 2px solid #000;
-  border-radius: 50%;
+  color: #000;
+  background: transparent;
+  border: 0px;
 }
 .activePaginationButton {
-  width: 40px;
-  height: 40px;
-  background: #7fc0f1;
-  border: 2px solid #174ff7;
-  border-radius: 50%;
+  color: #7fc0f1;
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid #7fc0f1;
 }
